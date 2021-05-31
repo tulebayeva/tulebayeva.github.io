@@ -1,0 +1,47 @@
+body{
+    background: rgba(97, 160, 231, 0.644);
+}
+.container{
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: rgba(155, 155, 155, 0.795);
+    border: 5px solid rgb(0, 0, 0);
+    position: relative
+} 
+.door{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(59, 30, 5, 0.897);
+    position: absolute;
+    top: 661px;
+    left: 200px;
+
+}
+.facea{
+    position: absolute;
+    width: 180px;
+    height: 80px;
+    border-radius: 100px;
+    background: rgb(64, 51, 182);
+    top: 501px;
+    left: 620px;
+}
+.zag{
+    display: none;
+    font-size: 50px;
+}
+.form{
+    margin-left: 900px;
+    margin-top: 50px;
+}
+
+#start{
+    width:175px;
+    height: 80px;
+    background-color: red;
+}
+.text{
+    transform:rotate(-24deg);
+    font-size: 24px;
+}
